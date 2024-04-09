@@ -6,137 +6,102 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 section {
     padding: 10px;
 }
-
 .geral {
     line-height: 1.8;
     font-family: "Outfit", sans-serif;
 }
-
 .div-deus .geral {
     margin-left: 30px;
 }
-
 .div-deus {
     width: 600px;
     height: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-
 .img-omelette img {
     width: 100%;
     border-radius: 10px;
 }
-
 @font-face {
     font-family: 'Young';
     src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') ;
 }
-
 .paragrafos-e-outros {
     font-family: 'Young', Helvetica, sans-serif ;
     font-weight: 400;
 }
-
 .paragrafos-e-outros:not(.sem-cor-tx) {
     color: hsl(14, 45%, 36%);
 }
-
-
 h4 {
     color: hsl(332, 51%, 32%);
 }
-
 .preparo-time {
     background-color: hsl(330, 100%, 98%);
     padding: 5px;
     margin: 20px;
 
 }
-
 ol li {
     padding-left: 20px;
 }
-
 .lista-de-igredientes {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
-
 ol li p {
     color: black;
     font-weight: normal;
 }
-
 hr {
     margin: 0px 40px;
     opacity: 45%;
 }
-
 td:nth-child(2n) {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
 }
-
 th,
 td {
     padding: 8px;
 }
-
 tr td {
     border-bottom: 1px solid #dddddd;
 }
-
-
-@media (max-width: 600px) {
+@media (max-width:430px) {
     body {
         justify-content: flex-start;
     }
-
     * {
         margin: 0;
     }
-
     .section-img {
         padding: 0;
     }
-
-
     .div-deus .geral {
-        margin-left: 10px;
-        
+        margin-left: 10px;  
     }
-
-
     .div-deus {
         width: 100%;
     }
-
-
     .img-omelette img {
         width: 100%;
         border-radius: 0px;
         margin: 0;
-
     }
-
     .paragrafos-e-outros {
         line-height: 1.2;
         font-size: 40px;
     }
-
-
     .preparo-omelette {
         padding: 15px;
     }
-
 }
